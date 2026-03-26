@@ -27,7 +27,7 @@ Opened the provided PCAP file in Wireshark. The capture contains all network tra
 - `10.0.2.15` → Target (MySQL database server)
 
 > 📸 Screenshot: Full packet capture view
-![Full Packet View](../screenshots/Screenshot%202026-03-26%20151107.png))
+![Full Packet View](https://github.com/Ben-ita66/sql-injection-lab/blob/main/screenshots/screenshots/Screenshot%202026-03-26%20151107.png)
 
 ---
 
@@ -40,7 +40,7 @@ Selected **line 13** — a GET HTTP request — and followed the HTTP stream (`R
 - **Blue** = Target (`10.0.2.15`) responding
 
 > 📸 Screenshot: HTTP GET Request and Response Colors
-![HTTP GET Request and Response Colors](../screenshots/Screenshot%202026-03-26%20151453.png)
+![HTTP GET Request and Response Colors](https://github.com/Ben-ita66/sql-injection-lab/blob/main/screenshots/screenshots/Screenshot%202026-03-26%20151453.png)
 
 ### Query used:
 ```
@@ -59,7 +59,7 @@ Instead of returning a login failure, **the application returned a database reco
 
 > 📸 Screenshot: HTTP stream of line 13
 
-![HTTP Stream Line 13](../screenshots/Screenshot%202026-03-26%20153300.png)
+![HTTP Stream Line 13](https://github.com/Ben-ita66/sql-injection-lab/blob/main/screenshots/screenshots/Screenshot%202026-03-26%20153300.png)
 
 ---
 
@@ -83,7 +83,7 @@ Multiple user accounts were also displayed in the response.
 
 > 📸 Screenshot: HTTP stream of line 19
 
-![HTTP Stream Line 19](../screenshots/Screenshot%202026-03-26%20153703.png)
+![HTTP Stream Line 19](https://github.com/Ben-ita66/sql-injection-lab/blob/main/screenshots/screenshots/Screenshot%202026-03-26%20153703.png)
 
 ---
 
@@ -106,7 +106,7 @@ The version identifier appeared at the end of the HTML output.
 
 > 📸 Screenshot: HTTP stream of line 22
 
-![HTTP Stream Line 22](../screenshots/Screenshot%202026-03-26%20154338.png)
+![HTTP Stream Line 22](https://github.com/Ben-ita66/sql-injection-lab/blob/main/screenshots/screenshots/Screenshot%202026-03-26%20154338.png)
 
 ---
 
@@ -125,7 +125,7 @@ A large output of all table names in the database.
 
 > 📸 Screenshot: HTTP stream of line 25
 
-![HTTP Stream Line 25](../screenshots/Screenshot%202026-03-26%20155000.png)
+![HTTP Stream Line 25](https://github.com/Ben-ita66/sql-injection-lab/blob/main/screenshots/screenshots/Screenshot%202026-03-26%20155000.png)
 
 ---
 
@@ -160,7 +160,7 @@ A large output of all table names in the database.
 
 > 📸 Screenshot: HTTP stream of line 28
 
-![HTTP Stream Line 28](../screenshots/Screenshot%202026-03-26%20155547.png)
+![HTTP Stream Line 28](https://github.com/Ben-ita66/sql-injection-lab/blob/main/screenshots/screenshots/Screenshot%202026-03-26%20155547.png)
 
 ---
 
